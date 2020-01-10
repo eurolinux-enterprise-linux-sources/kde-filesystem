@@ -22,7 +22,7 @@
 Summary: KDE filesystem layout
 Name: kde-filesystem
 Version: 4
-Release: 45%{?dist}
+Release: 47%{?dist}
 
 Group: System Environment/Base
 License: Public Domain
@@ -181,6 +181,12 @@ rm -rf $RPM_BUILD_ROOT %{name}.list
 
 
 %changelog
+* Tue Jan 28 2014 Daniel Mach <dmach@redhat.com> - 4-47
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4-46
+- Mass rebuild 2013-12-27
+
 * Sat Mar 16 2013 Rex Dieter <rdieter@fedoraproject.org> 4-45
 - use %%{_rpmconfigdir}/macros.d/macros.kde4 (f19+)
 
